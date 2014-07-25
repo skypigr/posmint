@@ -21,6 +21,7 @@ unsigned int nModifierInterval = MODIFIER_INTERVAL;
 static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     boost::assign::map_list_of
     (     0, 0xfd11f4e7u )
+    (  3000, 0x22a2c4b8u )  //actually 22a2c4b8,the end letter u means unsigned int
 ;
 
 // Get time weight
